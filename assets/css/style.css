@@ -4,27 +4,27 @@
 }
 
 @font-face {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
 }
 
 body {
-  background: #3CA2AF;
+  background: #B74855;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -48,7 +48,7 @@ h2 {
   background: #fff;
   border: 0.075em solid #fff;
   border-radius: 0.5em;
-  color: #3CA2AF;
+  color: #B74855;
   cursor: pointer;
   display: block;
   font-size: 1.2em;
