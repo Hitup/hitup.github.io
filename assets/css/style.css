@@ -22,7 +22,7 @@
 }
 
 body {
-  background: #00B3B3;
+  background: #F9687E;
   color: #fff;
   font-family: 'Lato', sans-serif;
   text-align: center;
@@ -48,7 +48,7 @@ h2 {
   background: #fff;
   border: 0.075em solid #fff;
   border-radius: 0.5em;
-  color: #00B3B3;
+  color: #F9687E;
   cursor: pointer;
   display: block;
   font-size: 1.2em;
