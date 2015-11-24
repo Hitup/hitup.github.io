@@ -1,275 +1,119 @@
-* {
-  margin: 0;
-  padding: 0;
+.center-middle {
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    text-align: center;
 }
 
-@font-face {
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: normal;
+.title{
+	font-size: 90px;
+	margin-top: -50px;
+	color: #F9687E;
 }
 
-@font-face {
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 400;
+.logo{
+	max-height: 65px;
+	max-width: 65px;
+
 }
 
-@font-face {
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 700;
+.red{
+	color: #F9687E;
 }
 
-body {
-  background: #F9687E;
-  color: #fff;
-  font-family: 'Lato', sans-serif;
-  text-align: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.iphone{
+	max-height: 800px;
+	max-width:400px;
+	margin: 0 auto;
+
 }
 
-a {
-  color: white;
-}
+.appstore{
+	max-height: 175px;
+	max-width: 300px;
 
-h1 {
-  font-size: 3.2em;
-  font-weight: 500;
-}
-
-h2 {
-  font-size: 1.6em;
-  font-weight: normal;
-}
-
-.button {
-  background: #fff;
-  border: 0.075em solid #fff;
-  border-radius: 0.5em;
-  color: #F9687E;
-  cursor: pointer;
-  display: block;
-  font-size: 1.2em;
-  font-weight: 500;
-  margin: 2.0em 0;
-  padding: 0.625em 0;
-  text-align: center;
-  text-decoration: none;
-  width: 100%;
 }
 
 .center{
-  margin: auto;
-    width: 60%;
-}
-
-.left{
-  float:left;
-}
-
-
-.resize-button{
-    height:auto;
-    max-width: 80%;
-    padding-top: 20px;
-  }
-
-  .pad20{
-    padding-top: 20px;
-  }
-
-  .email-form{
-    display: inline-block;
-    margin: auto;
-    min-width:400px;
-    height:auto;
-    max-width: 100%
-  }
-
-  .enter_box{
-    min-width: 300px;
-    min-height:45px;
-  }
-
-  .margin-100{
-    margin-top:100px;
-  }
-
-/* desktop */
-
-@media only screen and (min-width: 768px) {
-
-  #content {
+	display: block;
     margin: 0 auto;
-    width: 767px;
-  }
-
-  #text {
-    float: left;
-    line-height: 1.4;
-    margin: 100px 0;
-    text-align: left;
-    width: 417px;
-  }
-
-  #details {
-    font-size: 1.2em;
-    list-style-type: none;
-    margin: 2.0em 0;
-  }
-
-  #details li {
-    margin: 0.8em 0;
-  }
-
-  #iphone {
-    background: transparent url('assets/img/AllFriends.png') no-repeat 0 0;
-    background-size: contain;
-    float: right;
-    height: 591px;
-    margin: 50px 0 0;
-    width: 291px;
-    
-  }
-
-  .resize{
-    height: auto;
-    max-width: 120%;
-  }
+}
 
 
 
-  #video {
-    height: 454px;
-    margin: 69px 0;
-    width: 255px;
-  }
+@media only screen and (max-width : 1200px) {
+	.iphone{
+		max-height: 800px;
+		max-width:400px;
+		margin: 0 auto;
+	}
 
-  #copy {
-    clear: both;
-    padding: 5px 0;
-    text-align: left;
-  }
-
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    #iphone {
-      background: transparent url('/images/iphone@2x.png') no-repeat 0 0;
-      background-size: contain;
-      float: right;
-      height: 591px;
-      width: 291px;
-    }
-  }
+	.appstore{
+		max-height: 175px;
+		max-width: 300px;
+	}
 
 }
 
-/* mobile */
+@media only screen and (max-width : 979px) {
+	.iphone{
+		max-height: 800px;
+		max-width:400px;
+		margin: 0 auto;
+	}
 
-@media only screen and (max-width: 768px) {
-
-  #content {
-    padding: 1.0em;
-    width: 90%;
-  }
-
-  #text {
-    line-height: 1.4;
-    text-align: left;
-  }
-
-  h2 {
-    display: none;
-  }
-
-  .button {
-    margin: 2.0em 0;
-  }
-
-  #details {
-    font-size: 1.2em;
-    list-style-type: none;
-    margin: 1.4em 0;
-  }
-
-  #details li {
-    margin: 0.8em 0;
-  }
-
-  #details-3 {
-  }
-
-  #iphone {
-    background: transparent url('/images/iphone.png') no-repeat 0 0;
-    background-size: contain;
-    height: 591px;
-    width: 291px;
-  }
-
-  #video {
-    height: 454px;
-    margin: 69px 0;
-    width: 255px;
-  }
-
-  #copy {
-    clear: both;
-    padding: 150px 0 25px;
-    text-align: left;
-  }
-
-  .resize{
-    height: auto;
-    max-width: 115%;
-  }
-
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    #iphone {
-      background: transparent url('/images/iphone@2x.png') no-repeat 0 0;
-      background-size: contain;
-      height: 591px;
-      width: 291px;
-    }
-  }
+	.appstore{
+		max-height: 175px;
+		max-width: 300px;
+	}
 
 }
 
-/* fade */
+@media only screen and (max-width : 767px) {
+	.iphone{
+		max-height: 800px;
+		max-width:400px;
+		margin: 0 auto;
+	}
 
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+	.appstore{
+		max-height: 175px;
+		max-width: 300px;
+	}
+
+
 }
 
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+@media only screen and (max-width : 480px) {
+	.iphone{
+		max-height: 600px;
+		max-width:300px;
+		margin: 0 auto;
+	}
+
+	.appstore{
+		max-height: 125px;
+		max-width: 250px;
+	}
+	
+
 }
 
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
+@media only screen and (max-width : 320px) {
+	.iphone{
+		max-height: 500px;
+		max-width:250px;
+		margin: 0 auto;
+	}
 
-/* Internet Explorer */
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
+	.appstore{
+		max-height: 100px;
+		max-width: 200px;
+	}
+	
 
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-.fade {
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 2s; /* Firefox < 16 */
-      -ms-animation: fadein 2s; /* Internet Explorer */
-       -o-animation: fadein 2s; /* Opera < 12.1 */
-          animation: fadein 2s;
 }
